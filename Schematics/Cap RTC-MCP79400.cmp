@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 31/03/2015 20:57:18
+
+BeginCmp
+TimeStamp = /5517B1D6;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = Toadstool:CR1220_Keystone_3000;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517CEDB;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517C4CD;
+Reference = C2;
+ValeurCmp = 8.2pF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517B0A7;
+Reference = C3;
+ValeurCmp = 8.2pF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517CFAA;
+Reference = C4;
+ValeurCmp = 100pF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517D36A;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = Toadstool:Diode_D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5511B90D;
+Reference = K1;
+ValeurCmp = CAP_CONN_LHS;
+IdModule  = Toadstool:Socket_Strip_Stackable_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5511B5B6;
+Reference = K2;
+ValeurCmp = CAP_CONN_RHS;
+IdModule  = Toadstool:Socket_Strip_Stackable_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517B341;
+Reference = R1;
+ValeurCmp = 2.2k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517B508;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517B52C;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517D01C;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55179ECD;
+Reference = U1;
+ValeurCmp = MCP7400;
+IdModule  = Toadstool:SOIC-8-SN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5517B0F6;
+Reference = X1;
+ValeurCmp = 32.768 kHz;
+IdModule  = Crystals:Crystal_Round_Horizontal_2mm;
+EndCmp
+
+EndListe
