@@ -128,23 +128,6 @@ SDA
 Text Label 4300 1800 2    39   ~ 0
 SS2
 $Comp
-L MCP7400 U1
-U 1 1 55179ECD
-P 5050 4850
-F 0 "U1" H 5000 4850 60  0000 C CNN
-F 1 "MCP7400" H 5050 5600 60  0000 C CNN
-F 2 "Toadstool:SOIC-8-SN" H 5050 4850 60  0001 C CNN
-F 3 "" H 5050 4850 60  0000 C CNN
-F 4 "Microchip" H 5050 4850 60  0001 C CNN "Manufacturer"
-F 5 "MCP79400" H 5050 4850 60  0001 C CNN "Mfg_Part_No"
-F 6 "-I/SN" H 5050 4850 60  0001 C CNN "Mfg_Package_Suffix"
-F 7 "-" H 5050 4850 60  0001 C CNN "Alt_Manufacturer"
-F 8 "-" H 5050 4850 60  0001 C CNN "Alt_Mfg_Part_No"
-F 9 "-" H 5050 4850 60  0001 C CNN "Alt_Mfg_Package_Suffix"
-	1    5050 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C3
 U 1 1 5517B0A7
 P 3050 5250
@@ -230,44 +213,42 @@ F 9 "-" H 7100 4250 60  0001 C CNN "Alt_Mfg_Package_Suffix"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 4650 6250 4650
+	5600 4650 6250 4650
 Wire Wire Line
 	6150 4400 6150 4650
 Connection ~ 6150 4650
 Wire Wire Line
-	5750 5050 6750 5050
+	5600 4850 6750 4850
 Wire Wire Line
-	6650 4400 6650 5050
-Connection ~ 6650 5050
+	6650 4400 6650 4850
+Connection ~ 6650 4850
 Wire Wire Line
-	5750 5350 7200 5350
+	5600 5050 7250 5050
 Wire Wire Line
-	7100 4400 7100 5350
-Connection ~ 7100 5350
-Text Label 6750 5050 0    39   ~ 0
+	7100 5050 7100 4400
+Connection ~ 7100 5050
+Text Label 6750 4850 0    39   ~ 0
 SCL
-Text Label 7200 5350 0    39   ~ 0
+Text Label 7250 5050 0    39   ~ 0
 SDA
 $Comp
 L GND #PWR03
 U 1 1 5517BA00
-P 4100 6800
-F 0 "#PWR03" H 4100 6800 30  0001 C CNN
-F 1 "GND" H 4100 6730 30  0001 C CNN
-F 2 "" H 4100 6800 60  0000 C CNN
-F 3 "" H 4100 6800 60  0000 C CNN
-	1    4100 6800
+P 5050 6900
+F 0 "#PWR03" H 5050 6900 30  0001 C CNN
+F 1 "GND" H 5050 6830 30  0001 C CNN
+F 2 "" H 5050 6900 60  0000 C CNN
+F 3 "" H 5050 6900 60  0000 C CNN
+	1    5050 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 5350 4100 5350
-Wire Wire Line
-	4100 5350 4100 6800
+	5050 5400 5050 6900
 Wire Wire Line
 	3350 6550 3350 6650
 Wire Wire Line
-	3350 6650 4100 6650
-Connection ~ 4100 6650
+	3350 6650 5050 6650
+Connection ~ 5050 6650
 Text Label 6250 4650 0    39   ~ 0
 SS2
 Wire Wire Line
@@ -310,13 +291,13 @@ F 9 "-" H 2350 5250 60  0001 C CNN "Alt_Mfg_Package_Suffix"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 4350 2350 4350
+	2350 4650 4450 4650
 Wire Wire Line
-	2350 4350 2350 5100
+	2350 4650 2350 5100
 Wire Wire Line
-	4300 4650 3050 4650
+	3050 4850 4450 4850
 Wire Wire Line
-	3050 4650 3050 5100
+	3050 4850 3050 5100
 $Comp
 L GND #PWR05
 U 1 1 5517C7C8
@@ -329,9 +310,9 @@ F 3 "" H 2700 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 5400 3050 5850
+	3050 5850 3050 5400
 Wire Wire Line
-	3050 5850 2350 5850
+	2350 5850 3050 5850
 Wire Wire Line
 	2700 5850 2700 6050
 Wire Wire Line
@@ -340,18 +321,18 @@ Connection ~ 2700 5850
 $Comp
 L C C1
 U 1 1 5517CEDB
-P 5800 3850
-F 0 "C1" H 5800 3950 40  0000 L CNN
-F 1 "100nF" H 5806 3765 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5838 3700 30  0001 C CNN
-F 3 "" H 5800 3850 60  0000 C CNN
-F 4 "Kemet" H 5800 3850 60  0001 C CNN "Manufacturer"
-F 5 "C0805C104K5RACTU" H 5800 3850 60  0001 C CNN "Mfg_Part_No"
-F 6 "-" H 5800 3850 60  0001 C CNN "Mfg_Package_Suffix"
-F 7 "-" H 5800 3850 60  0001 C CNN "Alt_Manufacturer"
-F 8 "-" H 5800 3850 60  0001 C CNN "Alt_Mfg_Part_No"
-F 9 "-" H 5800 3850 60  0001 C CNN "Alt_Mfg_Package_Suffix"
-	1    5800 3850
+P 5050 3950
+F 0 "C1" H 5050 4050 40  0000 L CNN
+F 1 "100nF" H 5056 3865 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5088 3800 30  0001 C CNN
+F 3 "" H 5050 3950 60  0000 C CNN
+F 4 "Kemet" H 5050 3950 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104K5RACTU" H 5050 3950 60  0001 C CNN "Mfg_Part_No"
+F 6 "-" H 5050 3950 60  0001 C CNN "Mfg_Package_Suffix"
+F 7 "-" H 5050 3950 60  0001 C CNN "Alt_Manufacturer"
+F 8 "-" H 5050 3950 60  0001 C CNN "Alt_Mfg_Part_No"
+F 9 "-" H 5050 3950 60  0001 C CNN "Alt_Mfg_Package_Suffix"
+	1    5050 3950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -410,37 +391,30 @@ Wire Wire Line
 Wire Wire Line
 	3350 5400 3350 5050
 Wire Wire Line
-	3750 5050 4300 5050
+	3750 5050 4450 5050
 Connection ~ 4000 5050
 Wire Wire Line
 	4000 5400 4000 5550
 Wire Wire Line
-	4000 5550 4100 5550
-Connection ~ 4100 5550
+	4000 5550 5050 5550
+Connection ~ 5050 5550
 Wire Wire Line
-	5750 4350 6000 4350
-Wire Wire Line
-	6000 4350 6000 3750
-Wire Wire Line
-	6000 3750 7100 3750
-Wire Wire Line
-	5800 4000 5800 4350
-Connection ~ 5800 4350
+	5650 3750 7100 3750
 $Comp
 L GND #PWR06
 U 1 1 5518063B
-P 5450 3550
-F 0 "#PWR06" H 5450 3550 30  0001 C CNN
-F 1 "GND" H 5450 3480 30  0001 C CNN
-F 2 "" H 5450 3550 60  0000 C CNN
-F 3 "" H 5450 3550 60  0000 C CNN
-	1    5450 3550
+P 4700 3600
+F 0 "#PWR06" H 4700 3600 30  0001 C CNN
+F 1 "GND" H 4700 3530 30  0001 C CNN
+F 2 "" H 4700 3600 60  0000 C CNN
+F 3 "" H 4700 3600 60  0000 C CNN
+	1    4700 3600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5450 3550 5800 3550
+	4700 3600 5050 3600
 Wire Wire Line
-	5800 3550 5800 3700
+	5050 3600 5050 3800
 Wire Wire Line
 	5500 2000 5650 2000
 Text Label 5650 2000 0    39   ~ 0
@@ -455,28 +429,52 @@ NoConn ~ 4450 1600
 $Comp
 L CRYSTAL X1
 U 1 1 5517B0F6
-P 2700 4800
-F 0 "X1" H 2700 4950 60  0000 C CNN
-F 1 "32.768 kHz" H 2700 4650 60  0000 C CNN
-F 2 "Crystals:Crystal_Round_Horizontal_2mm" H 2700 4800 60  0001 C CNN
-F 3 "" H 2700 4800 60  0000 C CNN
-F 4 "Fox Electronics" H 2700 4800 60  0001 C CNN "Manufacturer"
-F 5 "NC26LF-327" H 2700 4800 60  0001 C CNN "Mfg_Part_No"
-F 6 "-" H 2700 4800 60  0001 C CNN "Mfg_Package_Suffix"
-F 7 "-" H 2700 4800 60  0001 C CNN "Alt_Manufacturer"
-F 8 "-" H 2700 4800 60  0001 C CNN "Alt_Mfg_Part_No"
-F 9 "-" H 2700 4800 60  0001 C CNN "Alt_Mfg_Package_Suffix"
-	1    2700 4800
+P 2700 5000
+F 0 "X1" H 2700 5150 60  0000 C CNN
+F 1 "32.768 kHz" H 2700 4850 60  0000 C CNN
+F 2 "Crystals:Crystal_Round_Horizontal_2mm" H 2700 5000 60  0001 C CNN
+F 3 "" H 2700 5000 60  0000 C CNN
+F 4 "Fox Electronics" H 2700 5000 60  0001 C CNN "Manufacturer"
+F 5 "NC26LF-327" H 2700 5000 60  0001 C CNN "Mfg_Part_No"
+F 6 "-" H 2700 5000 60  0001 C CNN "Mfg_Package_Suffix"
+F 7 "-" H 2700 5000 60  0001 C CNN "Alt_Manufacturer"
+F 8 "-" H 2700 5000 60  0001 C CNN "Alt_Mfg_Part_No"
+F 9 "-" H 2700 5000 60  0001 C CNN "Alt_Mfg_Package_Suffix"
+	1    2700 5000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3000 4800 3050 4800
-Connection ~ 3050 4800
+	3000 5000 3050 5000
+Connection ~ 3050 5000
 Wire Wire Line
-	2400 4800 2350 4800
-Connection ~ 2350 4800
+	2400 5000 2350 5000
+Connection ~ 2350 5000
 Wire Wire Line
 	3350 5050 3450 5050
 Wire Wire Line
 	4000 5100 4000 5050
+Wire Wire Line
+	5050 4100 5050 4350
+Wire Wire Line
+	5050 4200 5650 4200
+Wire Wire Line
+	5650 4200 5650 3750
+Connection ~ 5050 4200
+$Comp
+L MCP7400 U1
+U 1 1 55179ECD
+P 5050 4850
+F 0 "U1" H 4650 5250 60  0000 C CNN
+F 1 "MCP7400" H 5050 4750 60  0000 C CNN
+F 2 "Toadstool:SOIC-8-SN" H 5050 4850 60  0001 C CNN
+F 3 "" H 5050 4850 60  0000 C CNN
+F 4 "Microchip" H 5050 4850 60  0001 C CNN "Manufacturer"
+F 5 "MCP79400" H 5050 4850 60  0001 C CNN "Mfg_Part_No"
+F 6 "-I/SN" H 5050 4850 60  0001 C CNN "Mfg_Package_Suffix"
+F 7 "-" H 5050 4850 60  0001 C CNN "Alt_Manufacturer"
+F 8 "-" H 5050 4850 60  0001 C CNN "Alt_Mfg_Part_No"
+F 9 "-" H 5050 4850 60  0001 C CNN "Alt_Mfg_Package_Suffix"
+	1    5050 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:/OneDrive/KiCad Projects/Toadstool/CAP_RTC-MCP79400/Schematics/Cap RTC-MCP79400.sch</source>
+    <date>11/08/2015 15:23:37</date>
+    <tool>Eeschema (2015-04-22 BZR 5620)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Toadstool Cap: MCP79400 Real-Time Clock</title>
+        <company>Crash-Bang Prototyping</company>
+        <rev>0.3</rev>
+        <date/>
+        <source>Cap RTC-MCP79400.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="K2">
+      <value>CAP_CONN_RHS</value>
+      <footprint>Toadstool:Socket_Strip_Stackable_1x06</footprint>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Mfg_Part_No">ESQ-106-13-L-S</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">4UCOnn</field>
+        <field name="Alt_Mfg_Part_No">15198</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="toadstool" part="CAP_CONN_RHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5511B5B6</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>CAP_CONN_LHS</value>
+      <footprint>Toadstool:Socket_Strip_Stackable_1x06</footprint>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Mfg_Part_No">ESQ-106-13-L-S</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">4UConn</field>
+        <field name="Alt_Mfg_Part_No">15198</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="toadstool" part="CAP_CONN_LHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5511B90D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>8.2pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Mfg_Part_No">C0603C829C5GACTU</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517B0A7</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>BATTERY</value>
+      <footprint>Toadstool:CR1220_Keystone_3000</footprint>
+      <fields>
+        <field name="Manufacturer">Keystone</field>
+        <field name="Mfg_Part_No">3 000</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="Cap RTC-MCP79400-cache" part="BATTERY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517B1D6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Mfg_Part_No">RC0805JR-0710KL</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">TE Connectivity</field>
+        <field name="Alt_Mfg_Part_No">CRG0805F10K</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517B341</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Mfg_Part_No">CRCW08052K20FKEA</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517B508</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Mfg_Part_No">CRCW08052K20FKEA</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517B52C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>8.2pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Mfg_Part_No">C0603C829C5GACTU</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517C4CD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Mfg_Part_No">C0805C104K5RACTU</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517CEDB</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Mfg_Part_No">C0805C101J1GACTU</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517CFAA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Mfg_Part_No">CRG0805F1K0</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517D01C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <footprint>Toadstool:Diode_D3</footprint>
+      <fields>
+        <field name="Manufacturer">ST Microelectronics</field>
+        <field name="Mfg_Part_No">1N5819</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="Cap RTC-MCP79400-cache" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517D36A</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>32.768 kHz</value>
+      <footprint>Crystals:Crystal_Round_Horizontal_2mm</footprint>
+      <fields>
+        <field name="Manufacturer">Fox Electronics</field>
+        <field name="Mfg_Part_No">NC26LF-327</field>
+        <field name="Mfg_Package_Suffix">-</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="Cap RTC-MCP79400-cache" part="CRYSTAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5517B0F6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP7400</value>
+      <footprint>Toadstool:SOIC-8-SN</footprint>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Mfg_Part_No">MCP79400</field>
+        <field name="Mfg_Package_Suffix">-I/SN</field>
+        <field name="Alt_Manufacturer">-</field>
+        <field name="Alt_Mfg_Part_No">-</field>
+        <field name="Alt_Mfg_Package_Suffix">-</field>
+      </fields>
+      <libsource lib="toadstool" part="MCP7400"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55179ECD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="toadstool" part="CAP_CONN_LHS">
+      <description>Toadstool Cap Connector (Left)</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CAP_CONN_LHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="BiDi"/>
+        <pin num="2" name="SCK" type="BiDi"/>
+        <pin num="3" name="SS2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="TXD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="toadstool" part="CAP_CONN_RHS">
+      <description>Toadstool Cap Connector (Right)</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CAP_CONN_RHS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MOSI" type="BiDi"/>
+        <pin num="2" name="SS1" type="BiDi"/>
+        <pin num="3" name="~RESET" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_out"/>
+        <pin num="5" name="SCL" type="BiDi"/>
+        <pin num="6" name="RXD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="toadstool" part="MCP7400">
+      <description>Realtime Clock MCP7400</description>
+      <docs>www.microchip.com</docs>
+      <footprints>
+        <fp>SOIC</fp>
+        <fp>TSSOP</fp>
+        <fp>MSOP</fp>
+        <fp>TDFN</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP7400</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="MFP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Cap RTC-MCP79400-cache" part="BATTERY">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BATTERY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Cap RTC-MCP79400-cache" part="CRYSTAL">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Cap RTC-MCP79400-cache" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\KiCad\kicad\share\library\device.lib</uri>
+    </library>
+    <library logical="toadstool">
+      <uri>E:\OneDrive\KiCad Projects\Toadstool\Library\toadstool.lib</uri>
+    </library>
+    <library logical="Cap RTC-MCP79400-cache">
+      <uri>E:\OneDrive\KiCad Projects\Toadstool\CAP_RTC-MCP79400\Schematics\Cap RTC-MCP79400-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U1" pin="4"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="K1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="X1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(K1-Pad1)">
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(K1-Pad2)">
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(K1-Pad6)">
+      <node ref="K1" pin="6"/>
+    </net>
+    <net code="10" name="Net-(K2-Pad6)">
+      <node ref="K2" pin="6"/>
+    </net>
+    <net code="11" name="Net-(K2-Pad3)">
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(K2-Pad2)">
+      <node ref="K2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(K2-Pad1)">
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="14" name="/SCL">
+      <node ref="K2" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="/SS2">
+      <node ref="K1" pin="3"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="16" name="/SDA">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="17" name="VCC">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="K2" pin="4"/>
+    </net>
+  </nets>
+</export>
