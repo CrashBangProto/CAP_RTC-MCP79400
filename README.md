@@ -14,4 +14,4 @@ There are a number of other CrashBangProto respositories containing the schemati
 
 Visit the [Toadstool Webpages](http://www.crash-bang.com/projects/toadstool/) for more information on the project.
 
-<img src="http://www.crash-bang.com/wp-content/uploads/2015/02/IMG_2613-300x200.png" alt="Toadstool w Cap Proto" width="300" height="200">
+<img src="http://www.crash-bang.com/wp-content/uploads/2015/08/CAP-RTC-Hand-colour.png" alt="Toadstool Cap RTC-MCP" width="300">
